@@ -1,0 +1,16 @@
+.icon {
+	transition: 0.25s;
+}
+.call.icon {
+	background-image: url(../img/call.svg);
+}
+.geo.icon {
+	background-image: url(../img/geo.svg);
+}
+.mail.icon {
+	background-image: url(../img/mail.svg);
+}
+.instagram.icon {
+	background-image: url(../img/instagram.svg);
+	background-size: 100%;
+}

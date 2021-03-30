@@ -1,0 +1,79 @@
+@media screen and (max-width: 1400px){
+	.cityDillers {
+		flex-direction: column;
+	}
+	.dillers, .agents {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 768px){
+	html {
+    	font-size: 2.5vw;
+	}
+	.container {
+		width: 90%;
+		padding: 0;
+	}
+	.dillers, .agents {
+		width: 100%;
+	}
+	.canbuy {
+		text-align: center;
+	}
+	.canbuyCont {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.dillers .call, .dillers .addresLoc {
+		justify-content: center;
+	}
+	.dillers, .agents {
+		margin: auto auto;
+		justify-content: center;
+	}
+	.cityDillers {
+		width: 100%;
+	}
+	.cityDiller {
+		width: 100%;
+		text-align: center;
+	}
+	.call a{
+		text-align: center;
+	}
+	.agentCard {
+		flex-direction: column;
+	}
+	.agentCard img {
+		margin: 0 0 1rem 0;
+	}
+	.agContent {
+		width: 100%;
+	}
+	.agContact {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.row {
+		justify-content: center;
+	}
+	.foottop {
+		flex-wrap: wrap;
+	}
+	.foottop > div {
+		margin-bottom: 1rem;
+		width: 45%;
+	}
+	.foottop {
+		flex-direction: row;
+	}
+	.nav {
+		display: flex;
+		min-width: 0;
+	}
+	.navbar {
+		display: none;
+	}
+
+}

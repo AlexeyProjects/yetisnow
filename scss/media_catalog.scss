@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+	.nav {
+	  display: flex !important;
+	  width: 100%;
+	  min-width: 0;
+	}
+	.navbar {
+	  display: none !important;
+	}
+}
